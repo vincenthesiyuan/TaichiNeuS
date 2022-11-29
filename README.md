@@ -7,7 +7,10 @@ A Taichi implementation of extended NeuS with faster training and high quality s
 ## Taichi Hackthon
 
 * 团队名： **TaiGL**
-* 项目介绍
+
+
+
+### 项目介绍
 
 NeRF是近几年三维视觉领域的一个火热工作，其对高质量的三维内容重建、机器人感知、自动驾驶、游戏等领域有着重要的意义。游戏、3D打印、AR/VR的三维资产很多都是使用Mesh来表达，然而，NeRF产生的density使用marching cube生成Mesh非常noisy。扩展工作(NeuS、volSDF)尝试针对volume rendering中的PDF或CDF进行改写，使其能拟合一个神经隐式表面，再使用marching cube生成Mesh。虽然这里所产生Mesh质量相对较好，但对于单个物体的训练非常耗时，大约20小时。因此，本项目尝试借助instant-NGP的思想和taichi框架，使用纯python代码编写，让NeuS的训练耗时缩减到分钟级别，大大减少重建三维资产的时长。
 
