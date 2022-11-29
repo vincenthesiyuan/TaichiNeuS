@@ -6,9 +6,9 @@ A Taichi implementation of extended NeuS with faster training and high quality s
 
 ## Taichi Hackthon
 
-团队名：**TaiGL**<br>
+### 团队
 
-<br>
+* **TaiGL**<br>
 
 ### 项目介绍
 
